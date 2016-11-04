@@ -9,5 +9,5 @@ Your commit body may contain an elaborate description of your commit.
 Subaspects
 ==========
 
-* `Length <Length>`_
 * `Existence <Existence>`_
+* `Length <Length>`_

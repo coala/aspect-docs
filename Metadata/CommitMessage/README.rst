@@ -15,6 +15,6 @@ manually - release notes.
 Subaspects
 ==========
 
-* `Shortlog <Shortlog>`_
-* `Emptiness <Emptiness>`_
 * `Body <Body>`_
+* `Emptiness <Emptiness>`_
+* `Shortlog <Shortlog>`_

@@ -2,23 +2,23 @@
 
   - `CommitMessage <Metadata/CommitMessage>`_     
 
-    - `Shortlog <Metadata/CommitMessage/Shortlog>`_       
+    - `Emptiness <Metadata/CommitMessage/Emptiness>`_       
 
-      - `TrailingPeriod <Metadata/CommitMessage/Shortlog/TrailingPeriod>`_         
+    - `Shortlog <Metadata/CommitMessage/Shortlog>`_       
 
       - `FirstCharacter <Metadata/CommitMessage/Shortlog/FirstCharacter>`_         
 
-      - `Tense <Metadata/CommitMessage/Shortlog/Tense>`_         
+      - `ColonExistence <Metadata/CommitMessage/Shortlog/ColonExistence>`_         
 
       - `Length <Metadata/CommitMessage/Shortlog/Length>`_         
 
-      - `ColonExistence <Metadata/CommitMessage/Shortlog/ColonExistence>`_         
+      - `Tense <Metadata/CommitMessage/Shortlog/Tense>`_         
 
-    - `Emptiness <Metadata/CommitMessage/Emptiness>`_       
+      - `TrailingPeriod <Metadata/CommitMessage/Shortlog/TrailingPeriod>`_         
 
     - `Body <Metadata/CommitMessage/Body>`_       
 
-      - `Length <Metadata/CommitMessage/Body/Length>`_         
-
       - `Existence <Metadata/CommitMessage/Body/Existence>`_         
+
+      - `Length <Metadata/CommitMessage/Body/Length>`_         
 

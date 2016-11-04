@@ -130,7 +130,7 @@ def recurse(aspect, level=0):
         if subaspect.subaspects.items():
             output += "Subaspects\n"
             output += "==========\n\n"
-            for subsub_name, subsub in subaspect.subaspects.items():
+            for subsub_name, subsub in sorted(subaspect.subaspects.items()):
                 output += "* `" + subsub_name + " <" + subsub_name + ">`_\n"
 
         if subaspect.docs.example:
