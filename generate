@@ -166,7 +166,8 @@ if __name__ == "__main__":
     import_all_subaspects("coalib.bearlib.aspects")
 
     readme = recurse(coalib.bearlib.aspects.Root, level=0)
-    print(readme)
+    with open("README.rst", "w") as f:
+        f.write(readme)
 
     if len(sys.argv) == 1:
         os.system("git add -A && git commit -m 'Docs Update' && git push")

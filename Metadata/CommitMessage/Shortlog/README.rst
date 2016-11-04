@@ -11,8 +11,8 @@ manner.
 Subaspects
 ==========
 
-* `ColonExistence <Metadata/CommitMessage/Shortlog/ColonExistence>`_
 * `FirstCharacter <Metadata/CommitMessage/Shortlog/FirstCharacter>`_
-* `Tense <Metadata/CommitMessage/Shortlog/Tense>`_
+* `ColonExistence <Metadata/CommitMessage/Shortlog/ColonExistence>`_
 * `TrailingPeriod <Metadata/CommitMessage/Shortlog/TrailingPeriod>`_
 * `Length <Metadata/CommitMessage/Shortlog/Length>`_
+* `Tense <Metadata/CommitMessage/Shortlog/Tense>`_
