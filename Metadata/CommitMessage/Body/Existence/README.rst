@@ -20,7 +20,7 @@ Importance
 Having a nonempty commit body is important if you consistently want
 elaborate documentation on all commits.
 
-How to fix
+How to fix this
 ==========
 
 Write a commit message with a body.

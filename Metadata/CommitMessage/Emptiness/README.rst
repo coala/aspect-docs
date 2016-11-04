@@ -21,7 +21,7 @@ Importance
 An empty commit message shows the lack of documentation for your
 change.
 
-How to fix
+How to fix this
 ==========
 
 Write a commit message.

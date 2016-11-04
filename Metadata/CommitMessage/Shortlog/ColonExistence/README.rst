@@ -34,7 +34,7 @@ the commit message makes more sense to the reader or a classification
 (e.g. FIX, ...) or others. Some projects prefer not using colons
 specifically: consistency is key.
 
-How to fix
+How to fix this
 ==========
 
 Add or remove the colon according to the commit message guidelines.

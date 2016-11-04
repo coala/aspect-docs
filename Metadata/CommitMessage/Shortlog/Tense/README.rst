@@ -32,7 +32,7 @@ Importance
 
 Consistency is key to make messages more readable.
 
-How to fix
+How to fix this
 ==========
 
 Rephrase the shortlog into the right tense.

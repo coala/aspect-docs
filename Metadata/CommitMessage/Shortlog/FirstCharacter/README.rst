@@ -37,7 +37,7 @@ Importance
 
 Consistent commit messages are easier to read through.
 
-How to fix
+How to fix this
 ==========
 
 Convert your first character to upper/lower case. If your message starts

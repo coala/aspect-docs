@@ -31,7 +31,7 @@ A good commit message should be quick to read and concise. Also, git
 and platforms like GitHub do cut away everything beyond 72, sometimes
 even 50 characters making any longer message unreadable.
 
-How to fix
+How to fix this
 ==========
 
 Try to compress your message:

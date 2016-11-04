@@ -33,7 +33,7 @@ Importance
 Consistency is key to make messages more readable. Removing a trailing
 period can also make the message shorter by a character.
 
-How to fix
+How to fix this
 ==========
 
 Add or remove the trailing period according to the commit message

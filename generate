@@ -145,7 +145,7 @@ def recurse(aspect, level=0):
             output += subaspect.docs.importance_reason + "\n\n"
 
         if subaspect.docs.fix_suggestions:
-            output += "How to fix\n"
+            output += "How to fix this\n"
             output += "==========\n\n"
             output += subaspect.docs.fix_suggestions + "\n\n"
 

@@ -32,7 +32,7 @@ Importance
 Git and platforms like GitHub usually break everything beyond 72
 characters, making a message containing longer lines hard to read.
 
-How to fix
+How to fix this
 ==========
 
 Simply break your lines right before you hit the border.
