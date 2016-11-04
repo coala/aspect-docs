@@ -19,7 +19,7 @@ Settings
 +-------------------+----------------------------+----------------------------+
 
 
-* bold denotes default value
+\* bold denotes default value
 
 Example
 =======
