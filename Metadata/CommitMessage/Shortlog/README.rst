@@ -11,8 +11,8 @@ manner.
 Subaspects
 ==========
 
-* `FirstCharacter <FirstCharacter>`_
 * `Tense <Tense>`_
-* `ColonExistence <ColonExistence>`_
-* `Length <Length>`_
 * `TrailingPeriod <TrailingPeriod>`_
+* `ColonExistence <ColonExistence>`_
+* `FirstCharacter <FirstCharacter>`_
+* `Length <Length>`_

@@ -16,5 +16,5 @@ Subaspects
 ==========
 
 * `Body <Body>`_
-* `Emptiness <Emptiness>`_
 * `Shortlog <Shortlog>`_
+* `Emptiness <Emptiness>`_
