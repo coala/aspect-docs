@@ -1,0 +1,172 @@
+#!/usr/bin/env python
+
+import importlib
+import pkgutil
+import sys
+import os
+
+from collections import OrderedDict
+
+import coalib.bearlib.aspects
+
+def text_wrap(*args, delimiter=' ', end='\n', limit=80):
+    """
+    Breaks it wordwise when going further than ``limit`` chars.
+    :param args:
+        The stuff you want to have printed.
+    :param delimiter:
+        Will be placed between all the args.
+    :param limit:
+        Char limit.
+    :param end:
+        An ending, will be put as last character and doesn't count into the
+        char limit.
+    :return:
+        A list of strings, each element to be written on its own line.
+    """
+    output = delimiter.join(args)
+    lines = output.splitlines(keepends=True)
+    results = []
+    for line in lines:
+        curr_print = line
+        while len(curr_print.rstrip('\n')) > limit:
+            splitpos = curr_print[:limit].rfind(' ')
+            if splitpos < 0:
+                # Word too long, search for a space left from limit at least
+                splitpos = curr_print.find(' ')
+                if splitpos < 0:
+                    break  # Break out and add the long thing in the next line
+
+            results.append(curr_print[:splitpos])
+            curr_print = curr_print[splitpos+1:]
+
+        results.append(curr_print)
+
+    return results
+
+
+def import_all_subaspects(package_name):
+    package = sys.modules[package_name]
+    for loader, name, is_pkg in pkgutil.walk_packages(package.__path__):
+        importlib.import_module(package_name + '.' + name)
+
+
+def recurse(aspect, level=0):
+    readme = ""
+    for subaspect_name, subaspect in aspect.subaspects.items():
+        subaspect_dir = subaspect.__qualname__.replace(".", "/")
+        os.makedirs(subaspect_dir, exist_ok=True)
+        output = ""
+        
+        cols = [
+                "**" + subaspect_name + "**",
+                "``" + subaspect.__qualname__ + "``",
+                "`Parent <" + "/".join(subaspect.__qualname__.split(".")[:-1]) + ">`_ ",
+                "`Index </coala/aspect-docs>`_",
+                "`Top <#>`_",
+        ]
+        output += "+"
+        for col in cols:
+            output += "-" * (len(col) + 2)
+            output += "+"
+        output += "\n"
+        output += "|"
+        for col in cols:
+            output += " " + col + " |"
+        output += "\n"
+        output += "+"
+        for col in cols:
+            output += "-" * (len(col) + 2)
+            output += "+"
+        output += "\n\n"
+
+        output += subaspect_name + "\n"
+        output += "=" * len(subaspect_name) + "\n"
+        output += subaspect.docs.definition + "\n\n"
+
+        if subaspect.settings:
+            output += "Settings\n"
+            output += "========\n\n"
+            par = OrderedDict()
+            lmax = -1
+            cmax = -1
+            rmax = -1
+            par = {}
+            var = {}
+            for setting in subaspect.settings:
+                key = "``" + setting.name + "``"
+                par[key] = text_wrap(setting.description, limit=60)
+                par[key] = [g.strip() for g in par[key]]
+                var[key] = "**" + str(setting.default) + "**"
+                if len(setting.suggested_values) > 1:
+                    var[key] += ", "
+                    var[key] += ", ".join([str(x) for x in setting.suggested_values if x != setting.default])
+                lmax = max(lmax, len(key))
+                cmax = max(cmax, max(len(g) for g in par[key]))
+                rmax = max(rmax, len(var[key]))
+
+            if len(par):
+                lmax = max(lmax, len(" Setting"))
+                cmax = max(cmax, len("Meaning"))
+                rmax = max(cmax, len("Suggested Values"))
+                header = False
+                for key in par:
+                    if not header:
+                        output += "+" + "-" * (lmax) + "-+-" + "-" * (cmax) + "-+-" + "-" * (1 + rmax) + "+\n"
+                        output += "| Setting" + " " * (lmax - len(" Setting")) + " |  Meaning" + " " * (cmax - 1 - len("Meaning")) + " |  Suggested Values" + " " * (cmax - len("Suggested Values")) + "|\n"
+                        output += "+" + "=" * lmax + "=+=" + "=" * (cmax) + "=+=" + "=" * (1 + rmax) + "+\n"
+                        header = True
+                    output += "| " + " " * lmax + "| " + " " * (1 + cmax) + "| " + " " * (1 + rmax) + "|\n"
+                    output += "|" + key + " " + " " * (lmax - len(key)) + "| " + par[key][0] + " " * (1 + cmax - len(par[key][0])) + "| " + var[key] + " " * (1 + rmax - len(var[key]))
+                    if len(par[key]) > 1:
+                        output += "|\n"
+                    else:
+                        output += "+\n"
+                    for text in par[key][1:]:
+                        output += "|" + " " * (lmax + 1) + "| " + text + " " * (1 + cmax - len(text)) + "| " + " " * (1 + rmax) + "|\n"
+                    output += "| " + " " * lmax + "| " + " " * (1 + cmax) + "| " + " " * (1 + rmax) + "|\n"
+                    output += "+" + "-" * lmax + "-+-" + "-" * (cmax) + "-+-" + "-" * (1 + rmax) + "+\n"
+
+        if subaspect.subaspects.items():
+            output += "Subaspects\n"
+            output += "==========\n\n"
+            for subsub_name, subsub in subaspect.subaspects.items():
+                output += "* `" + subsub_name + " <" + subsub.__qualname__.replace(".", "/") + ">`_\n"
+
+        if subaspect.docs.example:
+            output += "Example\n"
+            output += "=======\n\n"
+            output += ".. code-block:: " + subaspect.docs.example_language + "\n\n"
+            for line in subaspect.docs.example.splitlines():
+                output += "    " + line + "\n"
+            output += "\n\n"
+
+        if subaspect.docs.importance_reason:
+            output += "Importance\n"
+            output += "==========\n\n"
+            output += subaspect.docs.importance_reason + "\n\n"
+
+        if subaspect.docs.fix_suggestions:
+            output += "How to fix\n"
+            output += "==========\n\n"
+            output += subaspect.docs.fix_suggestions + "\n\n"
+
+        with open(os.path.join(subaspect_dir, "README.rst"), "w") as subfile:
+            subfile.write(output)
+
+        readme += (" " * (2*level))
+        readme += "- " + "`" + subaspect_name + " <" + subaspect.__qualname__.replace(".", "/") + ">`_ "
+        readme += (" " * (2*level + 2))
+        readme += "\n\n"
+        readme += recurse(subaspect, level=level+1)
+
+    return readme
+
+if __name__ == "__main__":
+    import_all_subaspects("coalib.bearlib.aspects")
+
+    readme = recurse(coalib.bearlib.aspects.Root, level=0)
+    print(readme)
+
+    if len(sys.argv) == 1:
+        os.system("git add -A && git commit -m 'Docs Update' && git push")
