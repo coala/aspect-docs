@@ -124,7 +124,7 @@ def recurse(aspect, level=0):
                         output += "|" + " " * (lmax + 1) + "| " + text + " " * (1 + cmax - len(text)) + "| " + " " * (1 + rmax) + "|\n"
                     output += "| " + " " * lmax + "| " + " " * (1 + cmax) + "| " + " " * (1 + rmax) + "|\n"
                     output += "+" + "-" * lmax + "-+-" + "-" * (cmax) + "-+-" + "-" * (1 + rmax) + "+\n"
-                output += "\n\nNote: bold denotes default value"
+                output += "\n\n* bold denotes default value\n\n"
 
         if subaspect.subaspects.items():
             output += "Subaspects\n"
