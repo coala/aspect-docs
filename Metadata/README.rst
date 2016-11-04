@@ -10,4 +10,4 @@ inside your source code.
 Subaspects
 ==========
 
-* `CommitMessage <Metadata/CommitMessage>`_
+* `CommitMessage <CommitMessage>`_

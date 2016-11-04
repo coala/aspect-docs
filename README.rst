@@ -2,13 +2,13 @@
 
   - `CommitMessage <Metadata/CommitMessage>`_     
 
-    - `Emptiness <Metadata/CommitMessage/Emptiness>`_       
-
     - `Body <Metadata/CommitMessage/Body>`_       
 
       - `Length <Metadata/CommitMessage/Body/Length>`_         
 
       - `Existence <Metadata/CommitMessage/Body/Existence>`_         
+
+    - `Emptiness <Metadata/CommitMessage/Emptiness>`_       
 
     - `Shortlog <Metadata/CommitMessage/Shortlog>`_       
 

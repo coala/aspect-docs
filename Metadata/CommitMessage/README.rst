@@ -15,6 +15,6 @@ manually - release notes.
 Subaspects
 ==========
 
-* `Emptiness <Metadata/CommitMessage/Emptiness>`_
-* `Body <Metadata/CommitMessage/Body>`_
-* `Shortlog <Metadata/CommitMessage/Shortlog>`_
+* `Body <Body>`_
+* `Emptiness <Emptiness>`_
+* `Shortlog <Shortlog>`_
