@@ -59,7 +59,6 @@ def recurse(aspect, level=0):
         output = ""
         
         cols = [
-                "**" + subaspect_name + "**",
                 "``" + subaspect.__qualname__ + "``",
                 "`Parent <..>`_ ",
                 "`Index </>`_",
