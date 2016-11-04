@@ -110,7 +110,7 @@ def recurse(aspect, level=0):
                 cmax = max(cmax, len("Meaning"))
                 rmax = max(cmax, len("Suggested Values"))
                 header = False
-                for key in par:
+                for key in sorted(par):
                     if not header:
                         output += "+" + "-" * (lmax) + "-+-" + "-" * (cmax) + "-+-" + "-" * (1 + rmax) + "+\n"
                         output += "| Setting" + " " * (lmax - len(" Setting")) + " |  Meaning" + " " * (cmax - 1 - len("Meaning")) + " |  Suggested Values" + " " * (cmax - len("Suggested Values")) + "|\n"
