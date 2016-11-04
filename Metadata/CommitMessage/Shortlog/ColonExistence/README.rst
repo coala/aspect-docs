@@ -39,3 +39,7 @@ How to fix
 
 Add or remove the colon according to the commit message guidelines.
 
++----------------------------------------------------+-----------------+--------------+------------+
+| ``Metadata.CommitMessage.Shortlog.ColonExistence`` | `Parent <..>`_  | `Index </>`_ | `Top <#>`_ |
++----------------------------------------------------+-----------------+--------------+------------+
+

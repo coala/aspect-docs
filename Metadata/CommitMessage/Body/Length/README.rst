@@ -37,3 +37,7 @@ How to fix
 
 Simply break your lines right before you hit the border.
 
++----------------------------------------+-----------------+--------------+------------+
+| ``Metadata.CommitMessage.Body.Length`` | `Parent <..>`_  | `Index </>`_ | `Top <#>`_ |
++----------------------------------------+-----------------+--------------+------------+
+

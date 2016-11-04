@@ -16,19 +16,19 @@
     - `Shortlog <Metadata/CommitMessage/Shortlog>`_ 
       
 
-      - `FirstCharacter <Metadata/CommitMessage/Shortlog/FirstCharacter>`_ 
+      - `ColonExistence <Metadata/CommitMessage/Shortlog/ColonExistence>`_ 
+        
+
+      - `Tense <Metadata/CommitMessage/Shortlog/Tense>`_ 
         
 
       - `TrailingPeriod <Metadata/CommitMessage/Shortlog/TrailingPeriod>`_ 
         
 
-      - `ColonExistence <Metadata/CommitMessage/Shortlog/ColonExistence>`_ 
+      - `FirstCharacter <Metadata/CommitMessage/Shortlog/FirstCharacter>`_ 
         
 
       - `Length <Metadata/CommitMessage/Shortlog/Length>`_ 
-        
-
-      - `Tense <Metadata/CommitMessage/Shortlog/Tense>`_ 
         
 
     - `Emptiness <Metadata/CommitMessage/Emptiness>`_ 

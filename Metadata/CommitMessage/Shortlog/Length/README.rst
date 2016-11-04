@@ -41,3 +41,7 @@ Try to compress your message:
 - Leave out unneeded words or details
 - Use common abbreviations like w/, w/o or &.
 
++--------------------------------------------+-----------------+--------------+------------+
+| ``Metadata.CommitMessage.Shortlog.Length`` | `Parent <..>`_  | `Index </>`_ | `Top <#>`_ |
++--------------------------------------------+-----------------+--------------+------------+
+

@@ -16,3 +16,7 @@ Subaspects
 * `Length <Length>`_
 * `Tense <Tense>`_
 * `TrailingPeriod <TrailingPeriod>`_
++-------------------------------------+-----------------+--------------+------------+
+| ``Metadata.CommitMessage.Shortlog`` | `Parent <..>`_  | `Index </>`_ | `Top <#>`_ |
++-------------------------------------+-----------------+--------------+------------+
+

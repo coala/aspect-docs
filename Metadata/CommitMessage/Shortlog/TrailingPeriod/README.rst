@@ -39,3 +39,7 @@ How to fix
 Add or remove the trailing period according to the commit message
 guidelines.
 
++----------------------------------------------------+-----------------+--------------+------------+
+| ``Metadata.CommitMessage.Shortlog.TrailingPeriod`` | `Parent <..>`_  | `Index </>`_ | `Top <#>`_ |
++----------------------------------------------------+-----------------+--------------+------------+
+
