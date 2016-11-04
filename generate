@@ -155,7 +155,7 @@ def recurse(aspect, level=0):
             subfile.write(output)
 
         readme += (" " * (2*level))
-        readme += "- " + "`" + subaspect_name + " <" + subaspect.__qualname__.replace(".", "/") + ">`_ "
+        readme += "- " + "`" + subaspect_name + " <" + subaspect.__qualname__.replace(".", "/") + ">`_ \n"
         readme += (" " * (2*level + 2))
         readme += "\n\n"
         readme += recurse(subaspect, level=level+1)
