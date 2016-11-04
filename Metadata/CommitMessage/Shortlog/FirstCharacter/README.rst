@@ -1,6 +1,6 @@
-+----------------------------------------------------+-----------------+--------------+------------+
-| ``Metadata.CommitMessage.Shortlog.FirstCharacter`` | `Parent <..>`_  | `Index </>`_ | `Top <#>`_ |
-+----------------------------------------------------+-----------------+--------------+------------+
++----------------------------------------------------+-----------------+--------------+
+| ``Metadata.CommitMessage.Shortlog.FirstCharacter`` | `Parent <..>`_  | `Index </>`_ |
++----------------------------------------------------+-----------------+--------------+
 
 FirstCharacter
 ==============
@@ -43,8 +43,4 @@ How to fix
 Convert your first character to upper/lower case. If your message starts
 with an identifier, consider rephrasing. Usually starting with a verb is
 a good idea.
-
-+----------------------------------------------------+-----------------+--------------+------------+
-| ``Metadata.CommitMessage.Shortlog.FirstCharacter`` | `Parent <..>`_  | `Index </>`_ | `Top <#>`_ |
-+----------------------------------------------------+-----------------+--------------+------------+
 

@@ -62,7 +62,6 @@ def recurse(aspect, level=0):
                 "``" + subaspect.__qualname__ + "``",
                 "`Parent <..>`_ ",
                 "`Index </>`_",
-                "`Top <#>`_",
         ]
         output += "+"
         for col in cols:
@@ -149,21 +148,6 @@ def recurse(aspect, level=0):
             output += "How to fix\n"
             output += "==========\n\n"
             output += subaspect.docs.fix_suggestions + "\n\n"
-
-        output += "+"
-        for col in cols:
-            output += "-" * (len(col) + 2)
-            output += "+"
-        output += "\n"
-        output += "|"
-        for col in cols:
-            output += " " + col + " |"
-        output += "\n"
-        output += "+"
-        for col in cols:
-            output += "-" * (len(col) + 2)
-            output += "+"
-        output += "\n\n"
 
         with open(os.path.join(subaspect_dir, "README.rst"), "w") as subfile:
             subfile.write(output)
