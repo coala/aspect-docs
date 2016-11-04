@@ -19,7 +19,7 @@ Settings
 +-------------------+----------------------------+----------------------------+
 
 
-* bold denotes default valueExample
+\* bold denotes default valueExample
 =======
 
 .. code-block:: English
