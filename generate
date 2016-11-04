@@ -58,13 +58,10 @@ def recurse(aspect, level=0):
         os.makedirs(subaspect_dir, exist_ok=True)
         output = ""
         
-        parent = subaspect.__qualname__.split(".")[:-1]
-        if parent == "":
-            parent = "/coala/aspect-docs"
         cols = [
                 "**" + subaspect_name + "**",
                 "``" + subaspect.__qualname__ + "``",
-                "`Parent <" + "/".join(parent) + ">`_ ",
+                "`Parent <" + "coala/aspect-docs/".join(subaspect.__qualname__.split(".")[:-1]) + ">`_ ",
                 "`Index </coala/aspect-docs>`_",
                 "`Top <#>`_",
         ]

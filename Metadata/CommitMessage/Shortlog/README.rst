@@ -1,6 +1,6 @@
-+--------------+-------------------------------------+-------------------------------------+-------------------------------+------------+
-| **Shortlog** | ``Metadata.CommitMessage.Shortlog`` | `Parent <Metadata/CommitMessage>`_  | `Index </coala/aspect-docs>`_ | `Top <#>`_ |
-+--------------+-------------------------------------+-------------------------------------+-------------------------------+------------+
++--------------+-------------------------------------+------------------------------------------------------+-------------------------------+------------+
+| **Shortlog** | ``Metadata.CommitMessage.Shortlog`` | `Parent <Metadatacoala/aspect-docs/CommitMessage>`_  | `Index </coala/aspect-docs>`_ | `Top <#>`_ |
++--------------+-------------------------------------+------------------------------------------------------+-------------------------------+------------+
 
 Shortlog
 ========
@@ -12,7 +12,7 @@ Subaspects
 ==========
 
 * `FirstCharacter <FirstCharacter>`_
-* `ColonExistence <ColonExistence>`_
-* `TrailingPeriod <TrailingPeriod>`_
-* `Length <Length>`_
 * `Tense <Tense>`_
+* `ColonExistence <ColonExistence>`_
+* `Length <Length>`_
+* `TrailingPeriod <TrailingPeriod>`_
