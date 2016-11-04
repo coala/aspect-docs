@@ -106,12 +106,12 @@ def recurse(aspect, level=0):
             if len(par):
                 lmax = max(lmax, len(" Setting"))
                 cmax = max(cmax, len("Meaning"))
-                rmax = max(cmax, len("Suggested Values"))
+                rmax = max(cmax, len("Values"))
                 header = False
                 for key in sorted(par):
                     if not header:
                         output += "+" + "-" * (lmax) + "-+-" + "-" * (cmax) + "-+-" + "-" * (1 + rmax) + "+\n"
-                        output += "| Setting" + " " * (lmax - len(" Setting")) + " |  Meaning" + " " * (cmax - 1 - len("Meaning")) + " |  Suggested Values" + " " * (cmax - len("Suggested Values")) + "|\n"
+                        output += "| Setting" + " " * (lmax - len(" Setting")) + " |  Meaning" + " " * (cmax - 1 - len("Meaning")) + " |  Values" + " " * (cmax - len("Values")) + "|\n"
                         output += "+" + "=" * lmax + "=+=" + "=" * (cmax) + "=+=" + "=" * (1 + rmax) + "+\n"
                         header = True
                     output += "| " + " " * lmax + "| " + " " * (1 + cmax) + "| " + " " * (1 + rmax) + "|\n"
@@ -124,6 +124,7 @@ def recurse(aspect, level=0):
                         output += "|" + " " * (lmax + 1) + "| " + text + " " * (1 + cmax - len(text)) + "| " + " " * (1 + rmax) + "|\n"
                     output += "| " + " " * lmax + "| " + " " * (1 + cmax) + "| " + " " * (1 + rmax) + "|\n"
                     output += "+" + "-" * lmax + "-+-" + "-" * (cmax) + "-+-" + "-" * (1 + rmax) + "+\n"
+                output += "\n\n* bold denotes default value"
 
         if subaspect.subaspects.items():
             output += "Subaspects\n"

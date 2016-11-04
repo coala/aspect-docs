@@ -11,13 +11,15 @@ Settings
 ========
 
 +-------------------+----------------------------+----------------------------+
-| Setting           |  Meaning                   |  Suggested Values          |
+| Setting           |  Meaning                   |  Values                    |
 +===================+============================+============================+
 |                   |                            |                            |
 |``shortlog_tense`` | The tense of the shortlog. | **imperative**, present continuous, past+
 |                   |                            |                            |
 +-------------------+----------------------------+----------------------------+
-Example
+
+
+* bold denotes default valueExample
 =======
 
 .. code-block:: English
