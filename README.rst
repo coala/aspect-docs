@@ -1,3 +1,10 @@
+Documentation for aspects
+-------------------------
+
+This repository is automatically generated. To do so, run ``./generate``. This will automatically push the changes too.
+
+The aspect tree is given below:
+
 - `Metadata <Metadata>`_ 
   
 

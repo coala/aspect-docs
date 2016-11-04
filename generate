@@ -181,6 +181,11 @@ if __name__ == "__main__":
 
     readme = recurse(coalib.bearlib.aspects.Root, level=0)
     with open("README.rst", "w") as f:
+        f.write("Documentation for aspects\n")
+        f.write("-------------------------\n\n")
+        f.write("This repository is automatically generated. To do so, run "
+                "``./generate``. This will automatically push the changes too.\n\n")
+        f.write("The aspect tree is given below:\n\n")
         f.write(readme)
 
     if len(sys.argv) == 1:
