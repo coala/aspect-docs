@@ -26,6 +26,7 @@ How to fix this
 Write a commit message with a body.
 
 **Aspects under ``Metadata.CommitMessage.Body``**
+
 +-----------------------------+-----------------------+
 | `Existence <../Existence>`_ | `Length <../Length>`_ |
 +-----------------------------+-----------------------+

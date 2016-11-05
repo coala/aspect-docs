@@ -42,6 +42,7 @@ How to fix this
 Rephrase the shortlog into the right tense.
 
 **Aspects under ``Metadata.CommitMessage.Shortlog``**
+
 +---------------------------------------+---------------------------------------+-----------------------+---------------------+---------------------------------------+
 | `ColonExistence <../ColonExistence>`_ | `FirstCharacter <../FirstCharacter>`_ | `Length <../Length>`_ | `Tense <../Tense>`_ | `TrailingPeriod <../TrailingPeriod>`_ |
 +---------------------------------------+---------------------------------------+-----------------------+---------------------+---------------------------------------+

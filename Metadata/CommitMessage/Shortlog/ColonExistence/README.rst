@@ -44,6 +44,7 @@ How to fix this
 Add or remove the colon according to the commit message guidelines.
 
 **Aspects under ``Metadata.CommitMessage.Shortlog``**
+
 +---------------------------------------+---------------------------------------+-----------------------+---------------------+---------------------------------------+
 | `ColonExistence <../ColonExistence>`_ | `FirstCharacter <../FirstCharacter>`_ | `Length <../Length>`_ | `Tense <../Tense>`_ | `TrailingPeriod <../TrailingPeriod>`_ |
 +---------------------------------------+---------------------------------------+-----------------------+---------------------+---------------------------------------+

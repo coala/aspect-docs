@@ -44,6 +44,7 @@ Add or remove the trailing period according to the commit message
 guidelines.
 
 **Aspects under ``Metadata.CommitMessage.Shortlog``**
+
 +---------------------------------------+---------------------------------------+-----------------------+---------------------+---------------------------------------+
 | `ColonExistence <../ColonExistence>`_ | `FirstCharacter <../FirstCharacter>`_ | `Length <../Length>`_ | `Tense <../Tense>`_ | `TrailingPeriod <../TrailingPeriod>`_ |
 +---------------------------------------+---------------------------------------+-----------------------+---------------------+---------------------------------------+

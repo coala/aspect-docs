@@ -17,6 +17,7 @@ Subaspects
 * `Tense <Tense>`_
 * `TrailingPeriod <TrailingPeriod>`_
 **Aspects under ``Metadata.CommitMessage``**
+
 +-------------------+-----------------------------+---------------------------+
 | `Body <../Body>`_ | `Emptiness <../Emptiness>`_ | `Shortlog <../Shortlog>`_ |
 +-------------------+-----------------------------+---------------------------+

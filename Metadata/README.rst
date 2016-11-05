@@ -12,6 +12,7 @@ Subaspects
 
 * `CommitMessage <CommitMessage>`_
 **Aspects under ``Root``**
+
 +---------------------------+
 | `Metadata <../Metadata>`_ |
 +---------------------------+
