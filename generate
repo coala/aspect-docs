@@ -61,7 +61,7 @@ def recurse(aspect, level=0):
         cols = [
                 "``" + subaspect.__qualname__ + "``",
                 "`Parent <..>`_ ",
-                "`Index </>`_",
+                "`Index <//coala/aspect-docs>`_",
         ]
         output += "+"
         for col in cols:
