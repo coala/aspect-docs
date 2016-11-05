@@ -7,13 +7,6 @@ Emptiness
 Your commit message serves as important documentation for your source
 code.
 
-Aspects under ``Metadata.CommitMessage``
-=========================================
-
-+-------------------+-----------------------------+---------------------------+
-| `Body <../Body>`_ | `Emptiness <../Emptiness>`_ | `Shortlog <../Shortlog>`_ |
-+-------------------+-----------------------------+---------------------------+
-
 Example
 =======
 
@@ -32,4 +25,9 @@ How to fix this
 ==========
 
 Write a commit message.
+
+**Aspects under ``Metadata.CommitMessage``**
++-------------------+-----------------------------+---------------------------+
+| `Body <../Body>`_ | `Emptiness <../Emptiness>`_ | `Shortlog <../Shortlog>`_ |
++-------------------+-----------------------------+---------------------------+
 
