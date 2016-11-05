@@ -2,6 +2,12 @@
 | ``Metadata.CommitMessage.Shortlog`` | `Parent <../README.rst>`_  | `Index <//github.com/coala/aspect-docs/blob/master/README.rst>`_ |
 +-------------------------------------+----------------------------+------------------------------------------------------------------+
 
+**Aspects under parent**
+
++------------------------------+----------------------------------------+--------------------------------------+
+| `Body <../Body/README.rst>`_ | `Emptiness <../Emptiness/README.rst>`_ | `Shortlog <../Shortlog/README.rst>`_ |
++------------------------------+----------------------------------------+--------------------------------------+
+
 Shortlog
 ========
 Your commit shortlog is the first line of your commit message. It is
@@ -16,9 +22,3 @@ Subaspects
 * `Length <Length/README.rst>`_
 * `Tense <Tense/README.rst>`_
 * `TrailingPeriod <TrailingPeriod/README.rst>`_
-**Aspects under this aspect's parent** (``Metadata.CommitMessage``)
-
-+------------------------------+----------------------------------------+--------------------------------------+
-| `Body <../Body/README.rst>`_ | `Emptiness <../Emptiness/README.rst>`_ | `Shortlog <../Shortlog/README.rst>`_ |
-+------------------------------+----------------------------------------+--------------------------------------+
-

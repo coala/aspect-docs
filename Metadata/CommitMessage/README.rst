@@ -2,6 +2,12 @@
 | ``Metadata.CommitMessage`` | `Parent <../README.rst>`_  | `Index <//github.com/coala/aspect-docs/blob/master/README.rst>`_ |
 +----------------------------+----------------------------+------------------------------------------------------------------+
 
+**Aspects under parent**
+
++------------------------------------------------+
+| `CommitMessage <../CommitMessage/README.rst>`_ |
++------------------------------------------------+
+
 CommitMessage
 =============
 Your commit message is important documentation associated with your
@@ -18,9 +24,3 @@ Subaspects
 * `Body <Body/README.rst>`_
 * `Emptiness <Emptiness/README.rst>`_
 * `Shortlog <Shortlog/README.rst>`_
-**Aspects under this aspect's parent** (``Metadata``)
-
-+------------------------------------------------+
-| `CommitMessage <../CommitMessage/README.rst>`_ |
-+------------------------------------------------+
-

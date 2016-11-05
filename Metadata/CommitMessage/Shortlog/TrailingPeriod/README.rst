@@ -2,6 +2,12 @@
 | ``Metadata.CommitMessage.Shortlog.TrailingPeriod`` | `Parent <../README.rst>`_  | `Index <//github.com/coala/aspect-docs/blob/master/README.rst>`_ |
 +----------------------------------------------------+----------------------------+------------------------------------------------------------------+
 
+**Aspects under parent**
+
++--------------------------------------------------+--------------------------------------------------+----------------------------------+--------------------------------+--------------------------------------------------+
+| `ColonExistence <../ColonExistence/README.rst>`_ | `FirstCharacter <../FirstCharacter/README.rst>`_ | `Length <../Length/README.rst>`_ | `Tense <../Tense/README.rst>`_ | `TrailingPeriod <../TrailingPeriod/README.rst>`_ |
++--------------------------------------------------+--------------------------------------------------+----------------------------------+--------------------------------+--------------------------------------------------+
+
 TrailingPeriod
 ==============
 Some projects force not to use trailing periods in the commit
@@ -26,12 +32,6 @@ Subaspects
 ==========
 
 This aspect does not have any sub aspects.
-
-**Aspects under this aspect's parent** (``Metadata.CommitMessage.Shortlog``)
-
-+--------------------------------------------------+--------------------------------------------------+----------------------------------+--------------------------------+--------------------------------------------------+
-| `ColonExistence <../ColonExistence/README.rst>`_ | `FirstCharacter <../FirstCharacter/README.rst>`_ | `Length <../Length/README.rst>`_ | `Tense <../Tense/README.rst>`_ | `TrailingPeriod <../TrailingPeriod/README.rst>`_ |
-+--------------------------------------------------+--------------------------------------------------+----------------------------------+--------------------------------+--------------------------------------------------+
 
 Example
 =======

@@ -2,6 +2,12 @@
 | ``Metadata.CommitMessage.Body.Length`` | `Parent <../README.rst>`_  | `Index <//github.com/coala/aspect-docs/blob/master/README.rst>`_ |
 +----------------------------------------+----------------------------+------------------------------------------------------------------+
 
+**Aspects under parent**
+
++----------------------------------------+----------------------------------+
+| `Existence <../Existence/README.rst>`_ | `Length <../Length/README.rst>`_ |
++----------------------------------------+----------------------------------+
+
 Length
 ======
 The length of your commit message body lines.
@@ -26,12 +32,6 @@ Subaspects
 ==========
 
 This aspect does not have any sub aspects.
-
-**Aspects under this aspect's parent** (``Metadata.CommitMessage.Body``)
-
-+----------------------------------------+----------------------------------+
-| `Existence <../Existence/README.rst>`_ | `Length <../Length/README.rst>`_ |
-+----------------------------------------+----------------------------------+
 
 Example
 =======

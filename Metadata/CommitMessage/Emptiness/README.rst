@@ -2,6 +2,12 @@
 | ``Metadata.CommitMessage.Emptiness`` | `Parent <../README.rst>`_  | `Index <//github.com/coala/aspect-docs/blob/master/README.rst>`_ |
 +--------------------------------------+----------------------------+------------------------------------------------------------------+
 
+**Aspects under parent**
+
++------------------------------+----------------------------------------+--------------------------------------+
+| `Body <../Body/README.rst>`_ | `Emptiness <../Emptiness/README.rst>`_ | `Shortlog <../Shortlog/README.rst>`_ |
++------------------------------+----------------------------------------+--------------------------------------+
+
 Emptiness
 =========
 Your commit message serves as important documentation for your source
@@ -11,12 +17,6 @@ Subaspects
 ==========
 
 This aspect does not have any sub aspects.
-
-**Aspects under this aspect's parent** (``Metadata.CommitMessage``)
-
-+------------------------------+----------------------------------------+--------------------------------------+
-| `Body <../Body/README.rst>`_ | `Emptiness <../Emptiness/README.rst>`_ | `Shortlog <../Shortlog/README.rst>`_ |
-+------------------------------+----------------------------------------+--------------------------------------+
 
 Example
 =======

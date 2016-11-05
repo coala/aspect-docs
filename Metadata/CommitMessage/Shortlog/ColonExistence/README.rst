@@ -2,6 +2,12 @@
 | ``Metadata.CommitMessage.Shortlog.ColonExistence`` | `Parent <../README.rst>`_  | `Index <//github.com/coala/aspect-docs/blob/master/README.rst>`_ |
 +----------------------------------------------------+----------------------------+------------------------------------------------------------------+
 
+**Aspects under parent**
+
++--------------------------------------------------+--------------------------------------------------+----------------------------------+--------------------------------+--------------------------------------------------+
+| `ColonExistence <../ColonExistence/README.rst>`_ | `FirstCharacter <../FirstCharacter/README.rst>`_ | `Length <../Length/README.rst>`_ | `Tense <../Tense/README.rst>`_ | `TrailingPeriod <../TrailingPeriod/README.rst>`_ |
++--------------------------------------------------+--------------------------------------------------+----------------------------------+--------------------------------+--------------------------------------------------+
+
 ColonExistence
 ==============
 Some projects force to use colons in the commit message shortlog
@@ -25,12 +31,6 @@ Subaspects
 ==========
 
 This aspect does not have any sub aspects.
-
-**Aspects under this aspect's parent** (``Metadata.CommitMessage.Shortlog``)
-
-+--------------------------------------------------+--------------------------------------------------+----------------------------------+--------------------------------+--------------------------------------------------+
-| `ColonExistence <../ColonExistence/README.rst>`_ | `FirstCharacter <../FirstCharacter/README.rst>`_ | `Length <../Length/README.rst>`_ | `Tense <../Tense/README.rst>`_ | `TrailingPeriod <../TrailingPeriod/README.rst>`_ |
-+--------------------------------------------------+--------------------------------------------------+----------------------------------+--------------------------------+--------------------------------------------------+
 
 Example
 =======

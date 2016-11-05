@@ -2,6 +2,12 @@
 | ``Metadata.CommitMessage.Shortlog.FirstCharacter`` | `Parent <../README.rst>`_  | `Index <//github.com/coala/aspect-docs/blob/master/README.rst>`_ |
 +----------------------------------------------------+----------------------------+------------------------------------------------------------------+
 
+**Aspects under parent**
+
++--------------------------------------------------+--------------------------------------------------+----------------------------------+--------------------------------+--------------------------------------------------+
+| `ColonExistence <../ColonExistence/README.rst>`_ | `FirstCharacter <../FirstCharacter/README.rst>`_ | `Length <../Length/README.rst>`_ | `Tense <../Tense/README.rst>`_ | `TrailingPeriod <../TrailingPeriod/README.rst>`_ |
++--------------------------------------------------+--------------------------------------------------+----------------------------------+--------------------------------+--------------------------------------------------+
+
 FirstCharacter
 ==============
 The first character of your commit message shortlog (first line) usually
@@ -29,12 +35,6 @@ Subaspects
 ==========
 
 This aspect does not have any sub aspects.
-
-**Aspects under this aspect's parent** (``Metadata.CommitMessage.Shortlog``)
-
-+--------------------------------------------------+--------------------------------------------------+----------------------------------+--------------------------------+--------------------------------------------------+
-| `ColonExistence <../ColonExistence/README.rst>`_ | `FirstCharacter <../FirstCharacter/README.rst>`_ | `Length <../Length/README.rst>`_ | `Tense <../Tense/README.rst>`_ | `TrailingPeriod <../TrailingPeriod/README.rst>`_ |
-+--------------------------------------------------+--------------------------------------------------+----------------------------------+--------------------------------+--------------------------------------------------+
 
 Example
 =======

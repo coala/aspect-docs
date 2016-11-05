@@ -80,6 +80,29 @@ def recurse(aspect, level=0):
             output += "+"
         output += "\n\n"
 
+        if len(subaspect.parent.subaspects) > 0:
+            cols = ["`" + subsub_name + " <../" + subsub_name + "/README.rst>`_"
+                    for subsub_name in sorted(subaspect.parent.subaspects)]
+            parent = "Root"
+            if subaspect.parent.__qualname__:
+                parent = subaspect.parent.__qualname__
+            head = "**Aspects under parent**\n\n"
+            output += head
+            output += "+"
+            for col in cols:
+                output += "-" * (len(col) + 2)
+                output += "+"
+            output += "\n"
+            output += "|"
+            for col in cols:
+                output += " " + col + " |"
+            output += "\n"
+            output += "+"
+            for col in cols:
+                output += "-" * (len(col) + 2)
+                output += "+"
+            output += "\n\n"
+
         output += subaspect_name + "\n"
         output += "=" * len(subaspect_name) + "\n"
         output += subaspect.docs.definition + "\n\n"
@@ -135,29 +158,6 @@ def recurse(aspect, level=0):
                 output += "* `" + subsub_name + " <" + subsub_name + "/README.rst>`_\n"
         else:
             output += "This aspect does not have any sub aspects.\n\n"
-
-        if len(subaspect.parent.subaspects) > 0:
-            cols = ["`" + subsub_name + " <../" + subsub_name + "/README.rst>`_"
-                    for subsub_name in sorted(subaspect.parent.subaspects)]
-            parent = "Root"
-            if subaspect.parent.__qualname__:
-                parent = subaspect.parent.__qualname__
-            head = "**Aspects under this aspect's parent** (``" + parent + "``)\n\n"
-            output += head
-            output += "+"
-            for col in cols:
-                output += "-" * (len(col) + 2)
-                output += "+"
-            output += "\n"
-            output += "|"
-            for col in cols:
-                output += " " + col + " |"
-            output += "\n"
-            output += "+"
-            for col in cols:
-                output += "-" * (len(col) + 2)
-                output += "+"
-            output += "\n\n"
 
         if subaspect.docs.example:
             output += "Example\n"

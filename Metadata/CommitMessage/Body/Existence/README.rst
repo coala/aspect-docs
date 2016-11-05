@@ -2,6 +2,12 @@
 | ``Metadata.CommitMessage.Body.Existence`` | `Parent <../README.rst>`_  | `Index <//github.com/coala/aspect-docs/blob/master/README.rst>`_ |
 +-------------------------------------------+----------------------------+------------------------------------------------------------------+
 
+**Aspects under parent**
+
++----------------------------------------+----------------------------------+
+| `Existence <../Existence/README.rst>`_ | `Length <../Length/README.rst>`_ |
++----------------------------------------+----------------------------------+
+
 Existence
 =========
 Forces the commit message body to exist (nonempty).
@@ -10,12 +16,6 @@ Subaspects
 ==========
 
 This aspect does not have any sub aspects.
-
-**Aspects under this aspect's parent** (``Metadata.CommitMessage.Body``)
-
-+----------------------------------------+----------------------------------+
-| `Existence <../Existence/README.rst>`_ | `Length <../Length/README.rst>`_ |
-+----------------------------------------+----------------------------------+
 
 Example
 =======
