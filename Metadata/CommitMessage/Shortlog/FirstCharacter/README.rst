@@ -48,7 +48,7 @@ Convert your first character to upper/lower case. If your message starts
 with an identifier, consider rephrasing. Usually starting with a verb is
 a good idea.
 
-**Aspects under ``Metadata.CommitMessage.Shortlog``**
+**Aspects under** ``Metadata.CommitMessage.Shortlog``
 
 +---------------------------------------+---------------------------------------+-----------------------+---------------------+---------------------------------------+
 | `ColonExistence <../ColonExistence>`_ | `FirstCharacter <../FirstCharacter>`_ | `Length <../Length>`_ | `Tense <../Tense>`_ | `TrailingPeriod <../TrailingPeriod>`_ |

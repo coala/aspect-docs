@@ -41,7 +41,7 @@ How to fix this
 
 Simply break your lines right before you hit the border.
 
-**Aspects under ``Metadata.CommitMessage.Body``**
+**Aspects under** ``Metadata.CommitMessage.Body``
 
 +-----------------------------+-----------------------+
 | `Existence <../Existence>`_ | `Length <../Length>`_ |

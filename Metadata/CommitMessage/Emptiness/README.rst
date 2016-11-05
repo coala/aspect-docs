@@ -26,7 +26,7 @@ How to fix this
 
 Write a commit message.
 
-**Aspects under ``Metadata.CommitMessage``**
+**Aspects under** ``Metadata.CommitMessage``
 
 +-------------------+-----------------------------+---------------------------+
 | `Body <../Body>`_ | `Emptiness <../Emptiness>`_ | `Shortlog <../Shortlog>`_ |

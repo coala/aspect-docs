@@ -45,7 +45,7 @@ Try to compress your message:
 - Leave out unneeded words or details
 - Use common abbreviations like w/, w/o or &.
 
-**Aspects under ``Metadata.CommitMessage.Shortlog``**
+**Aspects under** ``Metadata.CommitMessage.Shortlog``
 
 +---------------------------------------+---------------------------------------+-----------------------+---------------------+---------------------------------------+
 | `ColonExistence <../ColonExistence>`_ | `FirstCharacter <../FirstCharacter>`_ | `Length <../Length>`_ | `Tense <../Tense>`_ | `TrailingPeriod <../TrailingPeriod>`_ |
