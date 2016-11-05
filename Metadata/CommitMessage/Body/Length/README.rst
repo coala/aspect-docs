@@ -22,6 +22,13 @@ Settings
 
 \* bold denotes default value
 
+Aspects under Metadata.CommitMessage.Body
+==========================================
+
++-----------------------+-----------------------------+
+| `Length <../Length>`_ | `Existence <../Existence>`_ |
++-----------------------+-----------------------------+
+
 Example
 =======
 

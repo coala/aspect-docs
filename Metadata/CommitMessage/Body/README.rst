@@ -11,3 +11,10 @@ Subaspects
 
 * `Existence <Existence>`_
 * `Length <Length>`_
+Aspects under Metadata.CommitMessage
+=====================================
+
++-------------------+---------------------------+-----------------------------+
+| `Body <../Body>`_ | `Shortlog <../Shortlog>`_ | `Emptiness <../Emptiness>`_ |
++-------------------+---------------------------+-----------------------------+
+
