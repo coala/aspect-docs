@@ -5,39 +5,39 @@ This repository is automatically generated. To do so, run ``./generate``. This w
 
 The aspect tree is given below:
 
-- `Metadata <Metadata>`_ 
+- `Metadata <Metadata/README.rst>`_ 
   
 
-  - `CommitMessage <Metadata/CommitMessage>`_ 
+  - `CommitMessage <Metadata/CommitMessage/README.rst>`_ 
     
 
-    - `Body <Metadata/CommitMessage/Body>`_ 
+    - `Body <Metadata/CommitMessage/Body/README.rst>`_ 
       
 
-      - `Existence <Metadata/CommitMessage/Body/Existence>`_ 
+      - `Existence <Metadata/CommitMessage/Body/Existence/README.rst>`_ 
         
 
-      - `Length <Metadata/CommitMessage/Body/Length>`_ 
+      - `Length <Metadata/CommitMessage/Body/Length/README.rst>`_ 
         
 
-    - `Emptiness <Metadata/CommitMessage/Emptiness>`_ 
+    - `Emptiness <Metadata/CommitMessage/Emptiness/README.rst>`_ 
       
 
-    - `Shortlog <Metadata/CommitMessage/Shortlog>`_ 
+    - `Shortlog <Metadata/CommitMessage/Shortlog/README.rst>`_ 
       
 
-      - `ColonExistence <Metadata/CommitMessage/Shortlog/ColonExistence>`_ 
+      - `ColonExistence <Metadata/CommitMessage/Shortlog/ColonExistence/README.rst>`_ 
         
 
-      - `FirstCharacter <Metadata/CommitMessage/Shortlog/FirstCharacter>`_ 
+      - `FirstCharacter <Metadata/CommitMessage/Shortlog/FirstCharacter/README.rst>`_ 
         
 
-      - `Length <Metadata/CommitMessage/Shortlog/Length>`_ 
+      - `Length <Metadata/CommitMessage/Shortlog/Length/README.rst>`_ 
         
 
-      - `Tense <Metadata/CommitMessage/Shortlog/Tense>`_ 
+      - `Tense <Metadata/CommitMessage/Shortlog/Tense/README.rst>`_ 
         
 
-      - `TrailingPeriod <Metadata/CommitMessage/Shortlog/TrailingPeriod>`_ 
+      - `TrailingPeriod <Metadata/CommitMessage/Shortlog/TrailingPeriod/README.rst>`_ 
         
 

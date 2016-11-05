@@ -1,6 +1,6 @@
-+---------------------------------+-----------------+-------------------------------------------+
-| ``Metadata.CommitMessage.Body`` | `Parent <..>`_  | `Index <//github.com/coala/aspect-docs>`_ |
-+---------------------------------+-----------------+-------------------------------------------+
++---------------------------------+----------------------------+-------------------------------------------+
+| ``Metadata.CommitMessage.Body`` | `Parent <../README.rst>`_  | `Index <//github.com/coala/aspect-docs>`_ |
++---------------------------------+----------------------------+-------------------------------------------+
 
 Body
 ====
@@ -9,11 +9,11 @@ Your commit body may contain an elaborate description of your commit.
 Subaspects
 ==========
 
-* `Existence <Existence>`_
-* `Length <Length>`_
+* `Existence <Existence/README.rst>`_
+* `Length <Length/README.rst>`_
 **Aspects under this aspect's parent** (``Metadata.CommitMessage``)
 
-+-------------------+-----------------------------+---------------------------+
-| `Body <../Body>`_ | `Emptiness <../Emptiness>`_ | `Shortlog <../Shortlog>`_ |
-+-------------------+-----------------------------+---------------------------+
++------------------------------+----------------------------------------+--------------------------------------+
+| `Body <../Body/README.rst>`_ | `Emptiness <../Emptiness/README.rst>`_ | `Shortlog <../Shortlog/README.rst>`_ |
++------------------------------+----------------------------------------+--------------------------------------+
 

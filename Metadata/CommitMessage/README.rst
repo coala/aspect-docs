@@ -1,6 +1,6 @@
-+----------------------------+-----------------+-------------------------------------------+
-| ``Metadata.CommitMessage`` | `Parent <..>`_  | `Index <//github.com/coala/aspect-docs>`_ |
-+----------------------------+-----------------+-------------------------------------------+
++----------------------------+----------------------------+-------------------------------------------+
+| ``Metadata.CommitMessage`` | `Parent <../README.rst>`_  | `Index <//github.com/coala/aspect-docs>`_ |
++----------------------------+----------------------------+-------------------------------------------+
 
 CommitMessage
 =============
@@ -15,12 +15,12 @@ manually - release notes.
 Subaspects
 ==========
 
-* `Body <Body>`_
-* `Emptiness <Emptiness>`_
-* `Shortlog <Shortlog>`_
+* `Body <Body/README.rst>`_
+* `Emptiness <Emptiness/README.rst>`_
+* `Shortlog <Shortlog/README.rst>`_
 **Aspects under this aspect's parent** (``Metadata``)
 
-+-------------------------------------+
-| `CommitMessage <../CommitMessage>`_ |
-+-------------------------------------+
++------------------------------------------------+
+| `CommitMessage <../CommitMessage/README.rst>`_ |
++------------------------------------------------+
 

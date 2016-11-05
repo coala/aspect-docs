@@ -10,10 +10,10 @@ inside your source code.
 Subaspects
 ==========
 
-* `CommitMessage <CommitMessage>`_
+* `CommitMessage <CommitMessage/README.rst>`_
 **Aspects under this aspect's parent** (``Root``)
 
-+---------------------------+
-| `Metadata <../Metadata>`_ |
-+---------------------------+
++--------------------------------------+
+| `Metadata <../Metadata/README.rst>`_ |
++--------------------------------------+
 

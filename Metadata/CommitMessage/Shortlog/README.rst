@@ -1,6 +1,6 @@
-+-------------------------------------+-----------------+-------------------------------------------+
-| ``Metadata.CommitMessage.Shortlog`` | `Parent <..>`_  | `Index <//github.com/coala/aspect-docs>`_ |
-+-------------------------------------+-----------------+-------------------------------------------+
++-------------------------------------+----------------------------+-------------------------------------------+
+| ``Metadata.CommitMessage.Shortlog`` | `Parent <../README.rst>`_  | `Index <//github.com/coala/aspect-docs>`_ |
++-------------------------------------+----------------------------+-------------------------------------------+
 
 Shortlog
 ========
@@ -11,14 +11,14 @@ manner.
 Subaspects
 ==========
 
-* `ColonExistence <ColonExistence>`_
-* `FirstCharacter <FirstCharacter>`_
-* `Length <Length>`_
-* `Tense <Tense>`_
-* `TrailingPeriod <TrailingPeriod>`_
+* `ColonExistence <ColonExistence/README.rst>`_
+* `FirstCharacter <FirstCharacter/README.rst>`_
+* `Length <Length/README.rst>`_
+* `Tense <Tense/README.rst>`_
+* `TrailingPeriod <TrailingPeriod/README.rst>`_
 **Aspects under this aspect's parent** (``Metadata.CommitMessage``)
 
-+-------------------+-----------------------------+---------------------------+
-| `Body <../Body>`_ | `Emptiness <../Emptiness>`_ | `Shortlog <../Shortlog>`_ |
-+-------------------+-----------------------------+---------------------------+
++------------------------------+----------------------------------------+--------------------------------------+
+| `Body <../Body/README.rst>`_ | `Emptiness <../Emptiness/README.rst>`_ | `Shortlog <../Shortlog/README.rst>`_ |
++------------------------------+----------------------------------------+--------------------------------------+
 

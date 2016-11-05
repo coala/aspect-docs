@@ -60,7 +60,7 @@ def recurse(aspect, level=0):
         
         cols = [
                 "``" + subaspect.__qualname__ + "``",
-                "`Parent <..>`_ ",
+                "`Parent <../README.rst>`_ ",
                 "`Index <//github.com/coala/aspect-docs>`_",
         ]
         if "." not in subaspect.__qualname__:
@@ -132,12 +132,12 @@ def recurse(aspect, level=0):
         output += "==========\n\n"
         if subaspect.subaspects.items():
             for subsub_name, subsub in sorted(subaspect.subaspects.items()):
-                output += "* `" + subsub_name + " <" + subsub_name + ">`_\n"
+                output += "* `" + subsub_name + " <" + subsub_name + "/README.rst>`_\n"
         else:
             output += "This aspect does not have any sub aspects.\n\n"
 
         if len(subaspect.parent.subaspects) > 0:
-            cols = ["`" + subsub_name + " <../" + subsub_name + ">`_"
+            cols = ["`" + subsub_name + " <../" + subsub_name + "/README.rst>`_"
                     for subsub_name in sorted(subaspect.parent.subaspects)]
             parent = "Root"
             if subaspect.parent.__qualname__:
@@ -181,7 +181,7 @@ def recurse(aspect, level=0):
             subfile.write(output)
 
         readme += (" " * (2*level))
-        readme += "- " + "`" + subaspect_name + " <" + subaspect.__qualname__.replace(".", "/") + ">`_ \n"
+        readme += "- " + "`" + subaspect_name + " <" + subaspect.__qualname__.replace(".", "/") + "/README.rst>`_ \n"
         readme += (" " * (2*level + 2))
         readme += "\n\n"
         readme += recurse(subaspect, level=level+1)
