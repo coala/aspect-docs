@@ -22,6 +22,12 @@ Settings
 
 \* bold denotes default value
 
+**Aspects under** ``Metadata.CommitMessage.Body``
+
++-----------------------------+-----------------------+
+| `Existence <../Existence>`_ | `Length <../Length>`_ |
++-----------------------------+-----------------------+
+
 Example
 =======
 
@@ -40,10 +46,4 @@ How to fix this
 ==========
 
 Simply break your lines right before you hit the border.
-
-**Aspects under** ``Metadata.CommitMessage.Body``
-
-+-----------------------------+-----------------------+
-| `Existence <../Existence>`_ | `Length <../Length>`_ |
-+-----------------------------+-----------------------+
 

@@ -134,24 +134,6 @@ def recurse(aspect, level=0):
             for subsub_name, subsub in sorted(subaspect.subaspects.items()):
                 output += "* `" + subsub_name + " <" + subsub_name + ">`_\n"
 
-        if subaspect.docs.example:
-            output += "Example\n"
-            output += "=======\n\n"
-            output += ".. code-block:: " + subaspect.docs.example_language + "\n\n"
-            for line in subaspect.docs.example.splitlines():
-                output += "    " + line + "\n"
-            output += "\n\n"
-
-        if subaspect.docs.importance_reason:
-            output += "Importance\n"
-            output += "==========\n\n"
-            output += subaspect.docs.importance_reason + "\n\n"
-
-        if subaspect.docs.fix_suggestions:
-            output += "How to fix this\n"
-            output += "==========\n\n"
-            output += subaspect.docs.fix_suggestions + "\n\n"
-
         if len(subaspect.parent.subaspects) > 0:
             cols = ["`" + subsub_name + " <../" + subsub_name + ">`_"
                     for subsub_name in sorted(subaspect.parent.subaspects)]
@@ -174,6 +156,24 @@ def recurse(aspect, level=0):
                 output += "-" * (len(col) + 2)
                 output += "+"
             output += "\n\n"
+
+        if subaspect.docs.example:
+            output += "Example\n"
+            output += "=======\n\n"
+            output += ".. code-block:: " + subaspect.docs.example_language + "\n\n"
+            for line in subaspect.docs.example.splitlines():
+                output += "    " + line + "\n"
+            output += "\n\n"
+
+        if subaspect.docs.importance_reason:
+            output += "Importance\n"
+            output += "==========\n\n"
+            output += subaspect.docs.importance_reason + "\n\n"
+
+        if subaspect.docs.fix_suggestions:
+            output += "How to fix this\n"
+            output += "==========\n\n"
+            output += subaspect.docs.fix_suggestions + "\n\n"
 
         with open(os.path.join(subaspect_dir, "README.rst"), "w") as subfile:
             subfile.write(output)

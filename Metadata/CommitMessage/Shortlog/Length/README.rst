@@ -20,6 +20,12 @@ Settings
 
 \* bold denotes default value
 
+**Aspects under** ``Metadata.CommitMessage.Shortlog``
+
++---------------------------------------+---------------------------------------+-----------------------+---------------------+---------------------------------------+
+| `ColonExistence <../ColonExistence>`_ | `FirstCharacter <../FirstCharacter>`_ | `Length <../Length>`_ | `Tense <../Tense>`_ | `TrailingPeriod <../TrailingPeriod>`_ |
++---------------------------------------+---------------------------------------+-----------------------+---------------------+---------------------------------------+
+
 Example
 =======
 
@@ -44,10 +50,4 @@ Try to compress your message:
 - Omitting a trailing period saves another character
 - Leave out unneeded words or details
 - Use common abbreviations like w/, w/o or &.
-
-**Aspects under** ``Metadata.CommitMessage.Shortlog``
-
-+---------------------------------------+---------------------------------------+-----------------------+---------------------+---------------------------------------+
-| `ColonExistence <../ColonExistence>`_ | `FirstCharacter <../FirstCharacter>`_ | `Length <../Length>`_ | `Tense <../Tense>`_ | `TrailingPeriod <../TrailingPeriod>`_ |
-+---------------------------------------+---------------------------------------+-----------------------+---------------------+---------------------------------------+
 

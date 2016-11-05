@@ -21,6 +21,12 @@ Settings
 
 \* bold denotes default value
 
+**Aspects under** ``Metadata.CommitMessage.Shortlog``
+
++---------------------------------------+---------------------------------------+-----------------------+---------------------+---------------------------------------+
+| `ColonExistence <../ColonExistence>`_ | `FirstCharacter <../FirstCharacter>`_ | `Length <../Length>`_ | `Tense <../Tense>`_ | `TrailingPeriod <../TrailingPeriod>`_ |
++---------------------------------------+---------------------------------------+-----------------------+---------------------+---------------------------------------+
+
 Example
 =======
 
@@ -40,10 +46,4 @@ How to fix this
 ==========
 
 Rephrase the shortlog into the right tense.
-
-**Aspects under** ``Metadata.CommitMessage.Shortlog``
-
-+---------------------------------------+---------------------------------------+-----------------------+---------------------+---------------------------------------+
-| `ColonExistence <../ColonExistence>`_ | `FirstCharacter <../FirstCharacter>`_ | `Length <../Length>`_ | `Tense <../Tense>`_ | `TrailingPeriod <../TrailingPeriod>`_ |
-+---------------------------------------+---------------------------------------+-----------------------+---------------------+---------------------------------------+
 
