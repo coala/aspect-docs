@@ -6,8 +6,8 @@ Existence
 =========
 Forces the commit message body to exist (nonempty).
 
-Aspects under ``Body``
-=======================
+Aspects under ``Metadata.CommitMessage.Body``
+==============================================
 
 +-----------------------------+-----------------------+
 | `Existence <../Existence>`_ | `Length <../Length>`_ |

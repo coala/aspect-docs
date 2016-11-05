@@ -22,8 +22,8 @@ Settings
 
 \* bold denotes default value
 
-Aspects under ``Body``
-=======================
+Aspects under ``Metadata.CommitMessage.Body``
+==============================================
 
 +-----------------------------+-----------------------+
 | `Existence <../Existence>`_ | `Length <../Length>`_ |
