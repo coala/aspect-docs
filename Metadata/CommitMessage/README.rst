@@ -18,7 +18,7 @@ Subaspects
 * `Body <Body>`_
 * `Emptiness <Emptiness>`_
 * `Shortlog <Shortlog>`_
-**Aspects under** ``Metadata``
+**Other aspects under this aspect's parent** (``Metadata``)
 
 +-------------------------------------+
 | `CommitMessage <../CommitMessage>`_ |

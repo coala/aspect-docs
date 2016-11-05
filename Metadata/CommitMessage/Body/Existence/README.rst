@@ -11,7 +11,7 @@ Subaspects
 
 This aspect does not have any sub aspects.
 
-**Aspects under** ``Metadata.CommitMessage.Body``
+**Other aspects under this aspect's parent** (``Metadata.CommitMessage.Body``)
 
 +-----------------------------+-----------------------+
 | `Existence <../Existence>`_ | `Length <../Length>`_ |

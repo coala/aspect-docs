@@ -16,7 +16,7 @@ Subaspects
 * `Length <Length>`_
 * `Tense <Tense>`_
 * `TrailingPeriod <TrailingPeriod>`_
-**Aspects under** ``Metadata.CommitMessage``
+**Other aspects under this aspect's parent** (``Metadata.CommitMessage``)
 
 +-------------------+-----------------------------+---------------------------+
 | `Body <../Body>`_ | `Emptiness <../Emptiness>`_ | `Shortlog <../Shortlog>`_ |

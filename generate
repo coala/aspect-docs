@@ -142,7 +142,7 @@ def recurse(aspect, level=0):
             parent = "Root"
             if subaspect.parent.__qualname__:
                 parent = subaspect.parent.__qualname__
-            head = "**Aspects under** ``" + parent + "``\n\n"
+            head = "**Other aspects under this aspect's parent** (``" + parent + "``)\n\n"
             output += head
             output += "+"
             for col in cols:

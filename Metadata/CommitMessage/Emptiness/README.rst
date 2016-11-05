@@ -12,7 +12,7 @@ Subaspects
 
 This aspect does not have any sub aspects.
 
-**Aspects under** ``Metadata.CommitMessage``
+**Other aspects under this aspect's parent** (``Metadata.CommitMessage``)
 
 +-------------------+-----------------------------+---------------------------+
 | `Body <../Body>`_ | `Emptiness <../Emptiness>`_ | `Shortlog <../Shortlog>`_ |
