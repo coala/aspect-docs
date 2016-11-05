@@ -7,6 +7,11 @@ Emptiness
 Your commit message serves as important documentation for your source
 code.
 
+Subaspects
+==========
+
+This aspect does not have any sub aspects.
+
 **Aspects under** ``Metadata.CommitMessage``
 
 +-------------------+-----------------------------+---------------------------+

@@ -128,11 +128,13 @@ def recurse(aspect, level=0):
                     output += "+" + "-" * lmax + "-+-" + "-" * (cmax) + "-+-" + "-" * (1 + rmax) + "+\n"
                 output += "\n\n\* bold denotes default value\n\n"
 
+        output += "Subaspects\n"
+        output += "==========\n\n"
         if subaspect.subaspects.items():
-            output += "Subaspects\n"
-            output += "==========\n\n"
             for subsub_name, subsub in sorted(subaspect.subaspects.items()):
                 output += "* `" + subsub_name + " <" + subsub_name + ">`_\n"
+        else:
+            output += "This aspect does not have any sub aspects.\n\n"
 
         if len(subaspect.parent.subaspects) > 0:
             cols = ["`" + subsub_name + " <../" + subsub_name + ">`_"

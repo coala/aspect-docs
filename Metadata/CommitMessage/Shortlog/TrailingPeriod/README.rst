@@ -22,6 +22,11 @@ Settings
 
 \* bold denotes default value
 
+Subaspects
+==========
+
+This aspect does not have any sub aspects.
+
 **Aspects under** ``Metadata.CommitMessage.Shortlog``
 
 +---------------------------------------+---------------------------------------+-----------------------+---------------------+---------------------------------------+

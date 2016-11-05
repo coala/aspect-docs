@@ -6,6 +6,11 @@ Existence
 =========
 Forces the commit message body to exist (nonempty).
 
+Subaspects
+==========
+
+This aspect does not have any sub aspects.
+
 **Aspects under** ``Metadata.CommitMessage.Body``
 
 +-----------------------------+-----------------------+
