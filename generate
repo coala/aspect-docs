@@ -61,10 +61,10 @@ def recurse(aspect, level=0):
         cols = [
                 "``" + subaspect.__qualname__ + "``",
                 "`Parent <../README.rst>`_ ",
-                "`Index <//github.com/coala/aspect-docs>`_",
+                "`Index <//github.com/coala/aspect-docs/blob/master/README.rst>`_",
         ]
         if "." not in subaspect.__qualname__:
-            cols[1] = "`Parent <//github.com/coala/aspect-docs>`_"
+            cols[1] = "`Parent <//github.com/coala/aspect-docs/blob/master/README.rst>`_"
         output += "+"
         for col in cols:
             output += "-" * (len(col) + 2)
