@@ -132,6 +132,27 @@ def recurse(aspect, level=0):
             for subsub_name, subsub in sorted(subaspect.subaspects.items()):
                 output += "* `" + subsub_name + " <" + subsub_name + ">`_\n"
 
+        if len(subaspect.parent.subaspects) > 1:
+            cols = ["`" + subsub_name + " <../" + subsub_name + ">`_"
+                    for subsub_name in subaspect.parent.subaspects]
+            head = "Aspects under " + subaspect.parent.__qualname__ + "\n"
+            output += head
+            output += "=" * len(head) + "\n\n"
+            output += "+"
+            for col in cols:
+                output += "-" * (len(col) + 2)
+                output += "+"
+            output += "\n"
+            output += "|"
+            for col in cols:
+                output += " " + col + " |"
+            output += "\n"
+            output += "+"
+            for col in cols:
+                output += "-" * (len(col) + 2)
+                output += "+"
+            output += "\n\n"
+
         if subaspect.docs.example:
             output += "Example\n"
             output += "=======\n\n"
