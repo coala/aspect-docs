@@ -2,11 +2,9 @@
 | ``Metadata.CommitMessage`` | `Parent <../README.rst>`_  | `Index <//github.com/coala/aspect-docs/blob/master/README.rst>`_ |
 +----------------------------+----------------------------+------------------------------------------------------------------+
 
-**Aspects under parent**
-
-+------------------------------------------------+
-| `CommitMessage <../CommitMessage/README.rst>`_ |
-+------------------------------------------------+
++-----------------------+------------------------------------------------+
+| Horizontal Navigation | `CommitMessage <../CommitMessage/README.rst>`_ |
++-----------------------+------------------------------------------------+
 
 CommitMessage
 =============

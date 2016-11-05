@@ -2,11 +2,9 @@
 | ``Metadata`` | `Parent <//github.com/coala/aspect-docs/blob/master/README.rst>`_ | `Index <//github.com/coala/aspect-docs/blob/master/README.rst>`_ |
 +--------------+-------------------------------------------------------------------+------------------------------------------------------------------+
 
-**Aspects under parent**
-
-+--------------------------------------+
-| `Metadata <../Metadata/README.rst>`_ |
-+--------------------------------------+
++-----------------------+--------------------------------------+
+| Horizontal Navigation | `Metadata <../Metadata/README.rst>`_ |
++-----------------------+--------------------------------------+
 
 Metadata
 ========
