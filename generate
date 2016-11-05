@@ -81,7 +81,7 @@ def recurse(aspect, level=0):
         output += "\n\n"
 
         if len(subaspect.parent.subaspects) > 0:
-            cols = ["Horizontal Navigation"]
+            cols = ["**Sibling aspects**"]
             cols += ["`" + subsub_name + " <../" + subsub_name + "/README.rst>`_"
                      for subsub_name in sorted(subaspect.parent.subaspects)]
             parent = "Root"
