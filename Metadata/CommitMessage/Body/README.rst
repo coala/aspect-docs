@@ -11,7 +11,7 @@ Subaspects
 
 * `Existence <Existence>`_
 * `Length <Length>`_
-**Other aspects under this aspect's parent** (``Metadata.CommitMessage``)
+**Aspects under this aspect's parent** (``Metadata.CommitMessage``)
 
 +-------------------+-----------------------------+---------------------------+
 | `Body <../Body>`_ | `Emptiness <../Emptiness>`_ | `Shortlog <../Shortlog>`_ |

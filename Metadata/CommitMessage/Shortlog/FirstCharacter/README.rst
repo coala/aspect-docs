@@ -30,7 +30,7 @@ Subaspects
 
 This aspect does not have any sub aspects.
 
-**Other aspects under this aspect's parent** (``Metadata.CommitMessage.Shortlog``)
+**Aspects under this aspect's parent** (``Metadata.CommitMessage.Shortlog``)
 
 +---------------------------------------+---------------------------------------+-----------------------+---------------------+---------------------------------------+
 | `ColonExistence <../ColonExistence>`_ | `FirstCharacter <../FirstCharacter>`_ | `Length <../Length>`_ | `Tense <../Tense>`_ | `TrailingPeriod <../TrailingPeriod>`_ |
