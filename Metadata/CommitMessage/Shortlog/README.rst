@@ -16,8 +16,8 @@ Subaspects
 * `Length <Length>`_
 * `Tense <Tense>`_
 * `TrailingPeriod <TrailingPeriod>`_
-Aspects under Metadata.CommitMessage
-=====================================
+Aspects under ``CommitMessage``
+================================
 
 +-----------------------------+-------------------+---------------------------+
 | `Emptiness <../Emptiness>`_ | `Body <../Body>`_ | `Shortlog <../Shortlog>`_ |

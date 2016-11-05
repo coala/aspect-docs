@@ -7,8 +7,8 @@ Emptiness
 Your commit message serves as important documentation for your source
 code.
 
-Aspects under Metadata.CommitMessage
-=====================================
+Aspects under ``CommitMessage``
+================================
 
 +-----------------------------+-------------------+---------------------------+
 | `Emptiness <../Emptiness>`_ | `Body <../Body>`_ | `Shortlog <../Shortlog>`_ |

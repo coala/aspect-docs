@@ -135,7 +135,10 @@ def recurse(aspect, level=0):
         if len(subaspect.parent.subaspects) > 1:
             cols = ["`" + subsub_name + " <../" + subsub_name + ">`_"
                     for subsub_name in subaspect.parent.subaspects]
-            head = "Aspects under " + subaspect.parent.__qualname__ + "\n"
+            parent = "Root"
+            if subaspect.parent.__qualname__:
+                parent = subaspect.parent.__qualname__.split(".")[-1]
+            head = "Aspects under ``" + parent + "``\n"
             output += head
             output += "=" * len(head) + "\n\n"
             output += "+"
