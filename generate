@@ -83,7 +83,8 @@ def recurse(aspect, level=0):
         if len(subaspect.parent.subaspects) > 0:
             cols = ["**Sibling aspects**"]
             cols += ["`" + subsub_name + " <../" + subsub_name + "/README.rst>`_"
-                     for subsub_name in sorted(subaspect.parent.subaspects)]
+                     for subsub_name in sorted(subaspect.parent.subaspects)
+                     if subsub_name != subaspect.__name__]
             parent = "Root"
             if subaspect.parent.__qualname__:
                 parent = subaspect.parent.__qualname__

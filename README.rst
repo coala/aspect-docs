@@ -41,3 +41,33 @@ The aspect tree is given below:
       - `TrailingPeriod <Metadata/CommitMessage/Shortlog/TrailingPeriod/README.rst>`_ 
         
 
+- `Redundancy <Redundancy/README.rst>`_ 
+  
+
+  - `Clone <Redundancy/Clone/README.rst>`_ 
+    
+
+  - `UnreachableCode <Redundancy/UnreachableCode/README.rst>`_ 
+    
+
+    - `UnreachableStatement <Redundancy/UnreachableCode/UnreachableStatement/README.rst>`_ 
+      
+
+    - `UnusedFunction <Redundancy/UnreachableCode/UnusedFunction/README.rst>`_ 
+      
+
+  - `UnusedImport <Redundancy/UnusedImport/README.rst>`_ 
+    
+
+  - `UnusedVariable <Redundancy/UnusedVariable/README.rst>`_ 
+    
+
+    - `UnusedGlobalVariable <Redundancy/UnusedVariable/UnusedGlobalVariable/README.rst>`_ 
+      
+
+    - `UnusedLocalVariable <Redundancy/UnusedVariable/UnusedLocalVariable/README.rst>`_ 
+      
+
+    - `UnusedParameter <Redundancy/UnusedVariable/UnusedParameter/README.rst>`_ 
+      
+
