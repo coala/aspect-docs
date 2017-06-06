@@ -107,8 +107,8 @@ def recurse(aspect, level=0):
         output += "=" * len(subaspect_name) + "\n"
         output += subaspect.docs.definition + "\n\n"
 
-        if subaspect.settings:
-            output += "Settings\n"
+        if subaspect.tastes:
+            output += "Tastes\n"
             output += "========\n\n"
             par = OrderedDict()
             lmax = -1
@@ -116,27 +116,27 @@ def recurse(aspect, level=0):
             rmax = -1
             par = {}
             var = {}
-            for setting in subaspect.settings:
-                key = "``" + setting.name + "``"
-                par[key] = text_wrap(setting.description, limit=60)
+            for taste_name, taste in subaspect.tastes.items():
+                key = "``" + taste_name + "``"
+                par[key] = text_wrap(taste.description, limit=60)
                 par[key] = [g.strip() for g in par[key]]
-                var[key] = "**" + str(setting.default) + "**"
-                if len(setting.suggested_values) > 1:
+                var[key] = "**" + str(taste.default) + "**"
+                if len(taste.suggested_values) > 1:
                     var[key] += ", "
-                    var[key] += ", ".join([str(x) for x in setting.suggested_values if x != setting.default])
+                    var[key] += ", ".join([str(x) for x in taste.suggested_values if x != taste.default])
                 lmax = max(lmax, len(key))
                 cmax = max(cmax, max(len(g) for g in par[key]))
                 rmax = max(rmax, len(var[key]))
 
             if len(par):
-                lmax = max(lmax, len(" Setting"))
+                lmax = max(lmax, len(" Taste"))
                 cmax = max(cmax, len("Meaning"))
                 rmax = max(cmax, len("Values"))
                 header = False
                 for key in sorted(par):
                     if not header:
                         output += "+" + "-" * (lmax) + "-+-" + "-" * (cmax) + "-+-" + "-" * (1 + rmax) + "+\n"
-                        output += "| Setting" + " " * (lmax - len(" Setting")) + " |  Meaning" + " " * (cmax - 1 - len("Meaning")) + " |  Values" + " " * (cmax - len("Values")) + "|\n"
+                        output += "| Taste" + " " * (lmax - len(" Taste")) + " |  Meaning" + " " * (cmax - 1 - len("Meaning")) + " |  Values" + " " * (cmax - len("Values")) + "|\n"
                         output += "+" + "=" * lmax + "=+=" + "=" * (cmax) + "=+=" + "=" * (1 + rmax) + "+\n"
                         header = True
                     output += "| " + " " * lmax + "| " + " " * (1 + cmax) + "| " + " " * (1 + rmax) + "|\n"
