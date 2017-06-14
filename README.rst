@@ -71,6 +71,30 @@ The aspect tree is given below:
     - `UnusedParameter <Root/Redundancy/UnusedVariable/UnusedParameter/README.rst>`_ 
       
 
+- `Smell <Root/Smell/README.rst>`_ 
+  
+
+  - `ClassSmell <Root/Smell/ClassSmell/README.rst>`_ 
+    
+
+    - `ClassLength <Root/Smell/ClassSmell/ClassLength/README.rst>`_ 
+      
+
+    - `DataClump <Root/Smell/ClassSmell/DataClump/README.rst>`_ 
+      
+
+    - `FeatureEnvy <Root/Smell/ClassSmell/FeatureEnvy/README.rst>`_ 
+      
+
+  - `Complexity <Root/Smell/Complexity/README.rst>`_ 
+    
+
+  - `MethodSmell <Root/Smell/MethodSmell/README.rst>`_ 
+    
+
+  - `Naming <Root/Smell/Naming/README.rst>`_ 
+    
+
 - `Spelling <Root/Spelling/README.rst>`_ 
   
 

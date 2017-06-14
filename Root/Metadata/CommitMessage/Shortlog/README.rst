@@ -8,9 +8,7 @@
 
 Shortlog
 ========
-Your commit shortlog is the first line of your commit message. It is
-the most crucial part and summarizes the change in the shortest possible
-manner.
+Your commit shortlog is the first line of your commit message.
 
 Subaspects
 ==========
@@ -20,3 +18,22 @@ Subaspects
 * `Length <Length/README.rst>`_
 * `Tense <Tense/README.rst>`_
 * `TrailingPeriod <TrailingPeriod/README.rst>`_
+Example
+=======
+
+.. code-block:: English
+
+    FIX: Describe change further
+
+
+Importance
+==========
+
+It is the most crucial part and summarizes the change in the shortest
+possible manner.
+
+How to fix this
+==========
+
+Enforce concise, meaningful and clear commit messages' shortlogs.
+

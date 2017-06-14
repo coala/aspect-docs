@@ -31,6 +31,12 @@ Example
         print (id(a))
 
 
+Importance
+==========
+
+We should always keep our codebase clean, having dead code uselessly
+makes the code longer and ambiguous.
+
 How to fix this
 ==========
 
