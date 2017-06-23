@@ -71,6 +71,9 @@ The aspect tree is given below:
     - `UnusedParameter <Root/Redundancy/UnusedVariable/UnusedParameter/README.rst>`_ 
       
 
+- `Security <Root/Security/README.rst>`_ 
+  
+
 - `Smell <Root/Smell/README.rst>`_ 
   
 

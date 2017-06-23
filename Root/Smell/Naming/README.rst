@@ -10,7 +10,7 @@ Naming
 ======
 This aspect checks on identifiers in your codebase (their length
 and the appropriate naming convention to use for them, be it variables,
-classes or functions)
+classes or functions names.)
 
 Tastes
 ========
@@ -19,11 +19,11 @@ Tastes
 | Taste                         |  Meaning                                              |  Values                                               |
 +===============================+=======================================================+=======================================================+
 |                               |                                                       |                                                       |
-|``class_naming_convention``    | Naming convention to use for classes's identifiers    | **UpperCamelCase**, lowerCamelCase, snake_case, hyphenated-case+
+|``class_naming_convention``    | Naming convention to use for classes's identifiers    | **UpperCamelCase**, lowerCamelCase, snake_case, kebab-case+
 |                               |                                                       |                                                       |
 +-------------------------------+-------------------------------------------------------+-------------------------------------------------------+
 |                               |                                                       |                                                       |
-|``function_naming_convention`` | Naming convention to use for functions's or methods's | **snake_case**, lowerCamelCase, hyphenated-case, UpperCamelcase|
+|``function_naming_convention`` | Naming convention to use for functions's or methods's | **snake_case**, lowerCamelCase, kebab-case, UpperCamelcase|
 |                               | identifiers                                           |                                                       |
 |                               |                                                       |                                                       |
 +-------------------------------+-------------------------------------------------------+-------------------------------------------------------+
@@ -32,7 +32,7 @@ Tastes
 |                               |                                                       |                                                       |
 +-------------------------------+-------------------------------------------------------+-------------------------------------------------------+
 |                               |                                                       |                                                       |
-|``variable_naming_convention`` | Naming convention to use for variables's identifiers  | **snake_case**, lowerCamelCase, hyphenated-case, UpperCamelCase+
+|``variable_naming_convention`` | Naming convention to use for variables's identifiers  | **snake_case**, lowerCamelCase, kebab-case, UpperCamelCase+
 |                               |                                                       |                                                       |
 +-------------------------------+-------------------------------------------------------+-------------------------------------------------------+
 

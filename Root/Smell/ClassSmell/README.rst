@@ -11,9 +11,9 @@ ClassSmell
 This aspect detects `code smells` or `bad smells` related to classes'
 definitions in your codebase.
 
-Class-level code smells are simply code smells indicating poorly defined
-classes (including too large classes or God object, data clump feature
-envy etc...) in your source code.
+Class-level code smells indicate poorly defined classes (including too
+large classes or God object, data clump feature envy etc...) in your
+source code.
 
 Subaspects
 ==========
@@ -35,16 +35,16 @@ Example
 Importance
 ==========
 
-These classes (the classes containing code smells) should be
-refactored for better readability and maintainability of your source
-code.
+These classes should be refactored for better readability and
+maintainability of your source code.
 
 How to fix this
 ==========
 
-When a class is wearing too many (functional) hats, think about
-splitting it up:
-    * Extract class
-    * Extract subclass
-    * Extract interface
+When a class is wearing too many (functional) hats (too large
+classes), you should probably think about splitting it up:
+
+* Extract class
+* Extract subclass
+* Extract interface
 

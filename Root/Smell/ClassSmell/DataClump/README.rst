@@ -39,9 +39,8 @@ Example
                                   Integer age, String gender,
                                   String occupation, String city){
     
-                System.out.printf("Welcome %s %s, a %d-year-old %s "                      "from %s who works as a%s
-    ",firstName, lastName,
-                           age, gender, city, occupation);
+                System.out.printf("Welcome %s %s, a %d-year-old %s ""from %s who works as a%s
+    ",firstName, lastName, age, gender, city, occupation);
             }
             
 

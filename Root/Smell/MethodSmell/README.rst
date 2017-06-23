@@ -8,12 +8,12 @@
 
 MethodSmell
 ===========
-This aspect detects `code smells` or `bad smells` related to methods'
-and functions definitions in your codebase.
+This aspect detects `code smells` related to methods' and functions
+definitions in your codebase.
 
-Method-level code smells are simply code smells indicating poorly defined
-method and or functions (too long method or functions, or functions with
-too many parameters) in your source code.
+Method-level code smells indicate poorly defined method and or
+functions (too long method or functions, or functions with too many
+parameters) in your source code.
 
 Tastes
 ========
@@ -27,7 +27,7 @@ Tastes
 |                      |                                                           |                                                           |
 +----------------------+-----------------------------------------------------------+-----------------------------------------------------------+
 |                      |                                                           |                                                           |
-|``max_paramters``     | Represents the max number of parameters for a function's. | **10**, 5                                                 +
+|``max_parameters``    | Represents the max number of parameters for a function's. | **10**, 5                                                 +
 |                      |                                                           |                                                           |
 +----------------------+-----------------------------------------------------------+-----------------------------------------------------------+
 
@@ -53,9 +53,9 @@ Example
 Importance
 ==========
 
-Make your functions and methods unambiguous(by reducing the number of
-parameters, easy to read(by reducing the length of your methods and
-functions) and debug.
+Make your functions and methods unambiguous, easy to read and debug
+by reducing the number of parameters and length of your methods and
+functions.
 
 How to fix this
 ==========

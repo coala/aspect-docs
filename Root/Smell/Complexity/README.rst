@@ -8,7 +8,7 @@
 
 Complexity
 ==========
-This aspect checks on the cyclomatic complexity of your code
+This aspect checks on the cyclomatic complexity of your code.
 
 Tastes
 ========
